@@ -1,9 +1,12 @@
 body {
-  background-color: "379392";
+  background-color: #379392;
 }
 h1 {
-  color: 181D27;
+  color: #fbfbfb;
 }
 p {
-  color: red;
+  color: #fbfbfb;
+}
+h2 {
+  color: #181D27;
 }
