@@ -23,3 +23,34 @@ h2 {
   color: #181D27;
 }
 
+/*Nav Bar Padding*/
+ul {
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color: #181D27;
+}
+
+/*Nav Bar Hover link colour*/
+ul li a:hover {
+  color: #fbfbfb;
+  color: #fbfbfb;
+}
+/*Nav Bar, making them boxes and locking to the left*/
+li {
+  display: inline-block;
+  margin-right: 20px;
+  background-color: #181D27;
+  float: right;
+}
+/*Shows the active page in the nav bar*/
+.active {
+  color: #fbfbfb;
+  background-color: #379392;
+}
+/*Logo locked to the left*/
+.logo {
+  float: left;
+  height: 50px;
+  width: 50px;
+}
