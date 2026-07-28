@@ -25,9 +25,9 @@ h2 {
 
 /*Nav Bar Padding*/
 ul {
-  padding: 20px;
+  padding: 50px;
   margin: 0;
-  list-style: none;
+  list-style:none;
   background-color: #181D27;
 }
 
@@ -51,6 +51,4 @@ li {
 /*Logo locked to the left*/
 .logo {
   float: left;
-  height: 50px;
-  width: 50px;
 }
