@@ -52,3 +52,24 @@ li {
 .logo {
   float: left;
 }
+/*Centering text on the page*/
+h1
+{
+ text-align: center; 
+}
+
+p1
+{
+ text-align: center; 
+}
+
+/* Scroll Container */
+div.scroll-container {
+	background-color:#181D27;
+	overflow:auto;
+	white-space:nowrap;
+	padding:10px;
+}
+div.scroll-container img {
+	padding:10px;
+}
