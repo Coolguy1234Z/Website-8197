@@ -22,13 +22,23 @@ p {
 h2 {
   color: #181D27;
 }
-
-/*Nav Bar Padding*/
+ul {
+    margin: 0;
+    padding: 35px 50px;
+    list-style: none;
+    background-color: #181D27;
+    overflow: hidden;
+}
+/*Nav Bar Padding
 ul {
   padding: 50px;
   margin: 0;
   list-style:none;
   background-color: #181D27;
+}
+*/
+ul li a {
+  text-decoration: none;
 }
 
 /*Nav Bar Hover link colour*/
@@ -42,6 +52,8 @@ li {
   margin-right: 20px;
   background-color: #181D27;
   float: right;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
 }
 /*Shows the active page in the nav bar*/
 .active {
@@ -58,11 +70,10 @@ h1
  text-align: center; 
 }
 
-p1
+p
 {
  text-align: center; 
 }
-
 /* Scroll Container */
 div.scroll-container {
 	background-color:#181D27;
