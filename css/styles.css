@@ -22,6 +22,7 @@ p {
 h2 {
   color: #181D27;
 }
+/*Nav Bar desgn/padding*/
 ul {
     margin: 0;
     padding: 35px 50px;
@@ -29,22 +30,14 @@ ul {
     background-color: #181D27;
     overflow: hidden;
 }
-/*Nav Bar Padding
-ul {
-  padding: 50px;
-  margin: 0;
-  list-style:none;
-  background-color: #181D27;
-}
-*/
 ul li a {
   text-decoration: none;
+  color: #fbfbfb;
 }
 
 /*Nav Bar Hover link colour*/
 ul li a:hover {
-  color: #fbfbfb;
-  color: #fbfbfb;
+  color: #379392;
 }
 /*Nav Bar, making them boxes and locking to the left*/
 li {
@@ -55,10 +48,9 @@ li {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
 }
-/*Shows the active page in the nav bar*/
+/*Supposed to show active page but not working :(*/
 .active {
-  color: #fbfbfb;
-  background-color: #379392;
+  color: #96cd18;
 }
 /*Logo locked to the left*/
 .logo {
