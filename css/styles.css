@@ -1,4 +1,4 @@
-/*Fonts*/
+/*Fonts and Text*/
 
 @font-face{
   font-family: 'Bebas Neue';
@@ -14,13 +14,22 @@ h1 {
 body {
   background-color: #379392;
 }
-
 p {
   color: #fbfbfb;
 }
 
 h2 {
   color: #181D27;
+}
+/*Centering text*/
+h1
+{
+ text-align: center; 
+}
+
+p
+{
+ text-align: center; 
 }
 /*Nav Bar desgn/padding*/
 ul {
@@ -48,23 +57,9 @@ li {
   font-family: 'Bebas Neue', sans-serif;
   font-size: 30px;
 }
-/*Supposed to show active page but not working :(*/
-.active {
-  color: #96cd18;
-}
 /*Logo locked to the left*/
 .logo {
   float: left;
-}
-/*Centering text on the page*/
-h1
-{
- text-align: center; 
-}
-
-p
-{
- text-align: center; 
 }
 /* Scroll Container */
 div.scroll-container {
