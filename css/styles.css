@@ -71,3 +71,15 @@ div.scroll-container {
 div.scroll-container img {
 	padding:10px;
 }
+#home-shows-images{
+  width: auto;
+  height: 490px;
+}
+#home-movies-images{
+  width: auto;
+  height: 388px;
+}
+#shows-images-scroll{
+  width: auto;
+  height: 490px;
+}
