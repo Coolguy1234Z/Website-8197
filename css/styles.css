@@ -58,7 +58,7 @@ li {
   font-size: 30px;
 }
 /*Logo locked to the left*/
-.logo {
+div.logo {
   float: left;
 }
 /* Scroll Container */
@@ -82,4 +82,50 @@ div.scroll-container img {
 #shows-images-scroll{
   width: auto;
   height: 490px;
+}
+#specific-images{
+  width: auto;
+  position: relative;
+  height: 500px;
+  padding-left: 150px;
+  top: -300px;
+}
+div.specific-text {
+  position: relative;
+  left: 700px;
+  top: 100px;
+  width: 300px;
+  font-size: 20px;
+}
+div.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  background-color: #181D27;
+  color: #fbfbfb;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+div.footer-links {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+div.footer-links li a{
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
+@keyframes scroll-container {
+from {margin-left: 100%;}
+to {margin-left: -100%;}
+}
+@media screen and (max-width: 800px) {
+  div.specific-text {
+    position: relative;
+  }
+  .ul li a {
+  
+  }
 }
