@@ -116,6 +116,18 @@ div.footer-links li a{
   text-decoration: none;
   color: #fbfbfb;
 }
+/*Image container*/
+div.about-image {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+/*The size of the image*/
+div.about-image img {
+  width: 100%;
+  height: auto;
+
+}
 
 @keyframes scroll-container {
 from {margin-left: 100%;}
