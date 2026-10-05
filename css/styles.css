@@ -32,6 +32,12 @@ p
  text-align: center; 
 }
 /*Nav Bar desgn/padding*/
+
+ul li a {
+  text-decoration: none;
+  color: #fbfbfb;
+}
+
 ul {
     margin: 0;
     padding: 35px 50px;
@@ -39,24 +45,21 @@ ul {
     background-color: #181D27;
     overflow: hidden;
 }
-ul li a {
-  text-decoration: none;
-  color: #fbfbfb;
-}
 
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+    background-color: #181D27;
+    float: right;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+}
 /*Nav Bar Hover link colour*/
 ul li a:hover {
   color: #379392;
 }
 /*Nav Bar, making them boxes and locking to the left*/
-li {
-  display: inline-block;
-  margin-right: 20px;
-  background-color: #181D27;
-  float: right;
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 30px;
-}
+
 /*Logo locked to the left*/
 div.logo {
   float: left;
@@ -124,23 +127,78 @@ div.footer {
   padding: 10px;
   margin-top: 20px;
 }
-div.footer-links {
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
+div.footer-links li {
+    display: inline-block;
+    float: none;
+    margin-right: 20px;
+    background-color: #181D27;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
 }
 div.footer-links li a{
   text-decoration: none;
   color: #fbfbfb;
 }
-/*Image container*/
+
 div.about-image {
   width: 100%;
   height: auto;
   overflow: hidden;
 }
-/*The size of the image*/
+
 div.about-image img {
   width: 100%;
   height: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+
+    h1 {
+        font-size: 28px;
+        padding: 0 10px;
+    }
+
+    div.scroll-container {
+        overflow-x: auto;
+        white-space: nowrap;
+        padding: 5px;
+    }
+
+    #shows-images-scroll {
+        height: 350px;
+    }
+
+    #home-shows-images {
+        height: 350px;
+    }
+
+    #home-movies-images {
+        height: 280px;
+    }
+
+
+    .specific-container {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    #specific-images {
+        max-width: 90%;
+        height: auto;
+        margin: 0;
+    }
+
+    .specific-text {
+        width: 90%;
+        font-size: 18px;
+    }
+
+
+    div.about-image img {
+        width: 100%;
+        height: auto;
+    }
+
 }
